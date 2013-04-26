@@ -1,0 +1,97 @@
+body{
+/*
+  background: url(../imgs/background.png) no-repeat;
+  background-size:100%;
+*/
+  background:  url(../imgs/background.png) center center fixed no-repeat;
+  /*-moz-background-size:cover;
+  -webkit-background-size:cover;
+  background-size:cover;
+  margin:0;
+  */
+  margin:0;
+  text-align:center;
+  font-family: arial,sans-serif;
+  overflow-x:hidden;
+}
+
+#main{
+	position:relative;
+	margin:0 auto;
+	width:1020px;
+	text-align:left;
+}
+
+header{
+	position:relative;
+	left:0;
+	top:0; 
+	display:inline-block;
+}
+#circle{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+
+#search{
+	position:absolute;
+	right:130px;
+	top:20px;
+}
+
+#login{
+	position:absolute;
+	right:40px;
+	top:20px;
+	
+}
+
+#login > a{
+	color:black;
+}
+
+#center{
+	position:relative;
+	left:150px;
+}
+
+#arrow_l{
+	left:-40px;
+	position:absolute;
+	top:35%;
+}
+#arrow_r{
+	position:absolute;
+	top:36%;
+}
+#center > article{
+	position:absolute;
+	top:20px;
+	left:380px;
+}
+
+#center article > div{
+	margin-left:100px;
+}
+#dots{
+	position:relative;
+	left:34%;
+}
+#main > .option{
+	float:left;
+	margin-left:50px;
+	margin-right:40px;
+	margin-top:40px;
+}
+#main > .option >h1,#main > .option >article{
+	margin-left:20px;
+	
+}
+
+
+
+
+
+
